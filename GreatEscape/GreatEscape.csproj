@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Z80Lib">
+      <HintPath>..\..\..\..\b\dl\spectrum\emulatorX\djnesh-c-z80-4159a9d8e939\Z80Lib\obj\Debug\Z80Lib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
